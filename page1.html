@@ -66,19 +66,19 @@
         <input type="datetime-local" id="date" name="date"></input>
         <br><br>
 
-        <input type="radio" name="status1" value="an active addict" id="status1"></input>
-        <label for="Status1">I am in active addiction.</label>
-
-        <input type="radio" name="status2" value="a recovering addict" id="status2"></input>
-        <label for="Status2">I am a recovering addict.</label>
-
-        <input type="radio" name="status3" value="an active addict" id="status3"></input>
-        <label for="Status3">I would perfer not to say.</label>
+        <label for="status">I am...</label>
+        <select name="status" id="status">
+            <option value="1">Make a selection...</option>
+            <option value="2">in active addiction.</option>
+            <option value="3">a recovering addict.</option>
+            <option value="4">not going to identify.</option>
+        </select>
         <br><br>
 
-        <label for="Feedback">Provide 
-            your feedback here:</label>
-        <input type="text" id="feedback" name="feedback"></input>
+        <label for="Feedback">Provide your feedback here:</label>
+        <br><br>
+        <textarea name="feedback" id="feedback" cols="75" row="100" placeholder="Your feedback...">
+            </textarea>
     </form>
 </div>
 
