@@ -1,8 +1,3 @@
-body {
-    background-image: img/banner1;
-    padding: 20px;
-}
-
 header {
     text-decoration: dotted;
     text-align: center;
@@ -57,9 +52,16 @@ footer p .date {
     background-color: aqua;
 }
 
-div.initalinfo {
+.images {
     text-align: center;
+    margin: 60px;
 }
-section .image1 img{
-    im
+
+.images li {
+    display: inline-block;
+    width: 40%;
+}
+
+.images li img {
+    max-width: 100%;
 }
