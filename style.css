@@ -27,6 +27,7 @@ p {
     color: brown;
     font-size: x-large;
     line-height: 20px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -35,5 +36,15 @@ a {
 }
 li {
     font-family: sans-serif;
+    color: grey;
+    letter-spacing: 2px;
+    line-height: 40px;
 }
 
+div .dnd ul li {
+    column-count: 2;
+}
+
+p .dnd {
+    column-count: 2;
+}
