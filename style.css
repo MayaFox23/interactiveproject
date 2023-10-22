@@ -1,5 +1,6 @@
 body {
-    background-image: img/banner;
+    background-image: img/banner1;
+    padding: 20px;
 }
 
 header {
@@ -51,7 +52,14 @@ a.link {
     text-transform: uppercase;
 }
 
-footer p .date{
+footer p .date {
     border-radius: 3px;
     background-color: aqua;
+}
+
+div.initalinfo {
+    text-align: center;
+}
+section .image1 img{
+    im
 }
