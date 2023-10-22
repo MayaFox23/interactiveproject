@@ -50,3 +50,8 @@ li {
 a.link {
     text-transform: uppercase;
 }
+
+footer p .date{
+    border-radius: 3px;
+    background-color: aqua;
+}
